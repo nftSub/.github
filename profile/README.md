@@ -64,14 +64,14 @@ Documentation and demo application
 
 ```bash
 # Install the SDK
-npm install @nftsub/sdk
+npm install @nft-sub/sdk
 
 # or with pnpm
-pnpm add @nftsub/sdk
+pnpm add @nft-sub/sdk
 ```
 
 ```typescript
-import { SubscriptionSDK } from '@nftsub/sdk';
+import { SubscriptionSDK } from '@nft-sub/sdk';
 
 const sdk = new SubscriptionSDK({
   chain: 'sepolia',
