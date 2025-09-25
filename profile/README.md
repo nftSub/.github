@@ -79,11 +79,9 @@ const sdk = new SubscriptionSDK({
 });
 
 // Subscribe to a merchant
-await sdk.subscribe({
-  merchantId: 1,
-  paymentToken: '0x...',
-  subscriptionPeriod: 30 // days
-});
+const txHash = await sdk.subscribe(1n, 'ETH');
+// or with ERC-20 token
+const txHash = await sdk.subscribe(1n, '0x...');
 ```
 
 ## Live Deployments
