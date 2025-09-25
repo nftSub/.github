@@ -78,11 +78,11 @@ const sdk = new SubscriptionSDK({
   walletClient: walletClient
 });
 
-// Subscribe to a plan
+// Subscribe to a merchant
 await sdk.subscribe({
   merchantId: 1,
-  planId: 1,
-  paymentToken: '0x...'
+  paymentToken: '0x...',
+  subscriptionPeriod: 30 // days
 });
 ```
 
