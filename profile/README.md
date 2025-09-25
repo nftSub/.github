@@ -12,11 +12,11 @@
   [![Documentation](https://img.shields.io/badge/Docs-Next.js-000000?style=for-the-badge&logo=next.js)](https://github.com/nftSub/nftSub-frontend)
 </div>
 
-## 🚀 What is nftSub?
+## What is nftSub?
 
 nftSub revolutionizes subscription services on blockchain by combining NFTs with automated recurring payments. Each subscription is represented as a transferable NFT, enabling new business models and secondary markets for subscription access.
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph LR
@@ -28,7 +28,7 @@ graph LR
     C -->|Access| F[Service]
 ```
 
-## 📦 Repositories
+## Repositories
 
 ### [nftSub-contracts](https://github.com/nftSub/nftSub-contracts)
 Core smart contracts implementing the subscription logic
@@ -51,16 +51,16 @@ Documentation and demo application
 - API documentation
 - Component playground
 
-## 🌟 Key Features
+## Key Features
 
-- **🎫 NFT-Based Subscriptions**: Each subscription is a tradeable NFT
-- **🔄 Automated Renewals**: Reactive Network handles recurring payments
-- **💰 Multi-Token Support**: Accept ETH and any ERC-20 token
-- **📊 Analytics Dashboard**: Track subscription metrics and revenue
-- **🔐 Secure & Decentralized**: Built on Ethereum with best practices
-- **⚡ Easy Integration**: Full SDK with React hooks and components
+- **NFT-Based Subscriptions**: Each subscription is a tradeable NFT
+- **Automated Renewals**: Reactive Network handles recurring payments
+- **Multi-Token Support**: Accept ETH and any ERC-20 token
+- **Analytics Dashboard**: Track subscription metrics and revenue
+- **Secure & Decentralized**: Built on Ethereum with best practices
+- **Easy Integration**: Full SDK with React hooks and components
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install the SDK
@@ -86,14 +86,14 @@ await sdk.subscribe({
 });
 ```
 
-## 🌐 Live Deployments
+## Live Deployments
 
 ### Sepolia Testnet
 - SubscriptionNFT: `0x404cb817FA393D3689D1405DB0B76a20eDE72d43`
 - SubscriptionManager: `0x82b069578ae3dA9ea740D24934334208b83E530E`
 - SubscriptionReactive: `0xa55B7A74D05b5D5C48E431e44Fea83a1047A7582`
 
-## 🛠️ Use Cases
+## Use Cases
 
 - **SaaS Platforms**: Subscription-based software services
 - **Content Creators**: Exclusive content access
@@ -102,7 +102,7 @@ await sdk.subscribe({
 - **DAOs**: Membership and governance access
 - **NFT Collections**: Recurring utility access
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Check out our repositories for:
 - Smart contract improvements
@@ -110,7 +110,7 @@ We welcome contributions! Check out our repositories for:
 - Documentation updates
 - Bug fixes and features
 
-## 📚 Documentation
+## Documentation
 
 Visit our [documentation site](https://github.com/nftSub/nftSub-frontend) for:
 - Getting started guides
@@ -118,18 +118,18 @@ Visit our [documentation site](https://github.com/nftSub/nftSub-frontend) for:
 - Integration examples
 - Best practices
 
-## 🔗 Links
+## Links
 
 - [Website](https://nftsub.io) *(coming soon)*
 - [Twitter](https://twitter.com/nftsub)
 - [Discord](https://discord.gg/nftsub)
 
-## 📄 License
+## License
 
 All nftSub projects are MIT licensed.
 
 ---
 
 <div align="center">
-  Built with ❤️ for the Web3 community
+  Built for the Web3 community
 </div>
